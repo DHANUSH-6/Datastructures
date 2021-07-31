@@ -61,6 +61,7 @@ int totalNoOfelements()
         temp = temp->next;
         count++;
     }
+    delete temp;
     return count;
 }
 void insertAtBegining()
