@@ -52,7 +52,6 @@ void display()
     }
     delete temp;
 }
-
 int totalNoOfelements()
 {
     int count=0;
@@ -79,7 +78,6 @@ void insertAtBegining()
     head = temp;
     //delete temp;
 }
-
 void insertAtLast()
 {
     int data;
@@ -99,7 +97,6 @@ void insertAtLast()
     temp=newnode;
     //delete newnode;
 }
-
 void insertAtPosition(const int &position,const int &NumberOfElements)
 {
     if(position==1)
@@ -142,7 +139,6 @@ void deleteAtBegining()
     delete temp;
     
 }
-
 void deleteAtLast()
 {
     Node *temp;
@@ -156,7 +152,6 @@ void deleteAtLast()
     delete temp;
     
 }
-
 void deleteAtPosition(const int &position,const int &NumberOfElements)
 {
     if(position==1)

@@ -6,7 +6,6 @@ struct Node
   struct Node *next = NULL;  
 };
 struct Node *front = NULL, *rear = NULL;
-
 void print(const std::string &functions)
 {
     std::cout<<functions<<std::endl;

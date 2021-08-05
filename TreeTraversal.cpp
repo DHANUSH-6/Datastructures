@@ -10,7 +10,6 @@ struct Node
 	}
 };
 Node* root = NULL;
-
 void print(const std::string &functions)
 {
     std::cout<<functions<<std::endl;

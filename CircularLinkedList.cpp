@@ -6,7 +6,6 @@ struct Node
     struct Node *next;
 };
 struct Node *head=NULL , *tail = NULL;
-
 void listCreation(const int &NumberOfElements)
 {
     if(NumberOfElements){
@@ -51,7 +50,6 @@ void display()
     }
     delete temp->next;
 }
-
 int totalNoOfelements()
 {
     int count=0;
@@ -78,7 +76,6 @@ void insertAtBegining()
     head = newnode;
     //delete temp;
 }
-
 void insertAtLast()
 {
     int data;
@@ -92,7 +89,6 @@ void insertAtLast()
     tail=newnode;
     //delete newnode;
 }
-
 void insertAtPosition(const int &position,const int &NumberOfElements)
 {
     if(position==1)
@@ -133,7 +129,6 @@ void deleteAtBegining()
     delete temp;
     
 }
-
 void deleteAtLast()
 {
     Node *temp;
@@ -148,7 +143,6 @@ void deleteAtLast()
     delete temp;
     
 }
-
 void deleteAtPosition(const int &position,const int &NumberOfElements)
 {
     if(position==1)
@@ -176,7 +170,6 @@ void deleteAtPosition(const int &position,const int &NumberOfElements)
     
     }
 }
-
 
 int main()
 {
